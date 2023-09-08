@@ -60,14 +60,6 @@ body {
     margin-top: 20px
 }
 
-/* Footer styles */
-.footer {
-    background-color: #344e41;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
 .categories {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -93,3 +85,14 @@ body {
     color: #f5f1f1;
     margin-left: 5px;
   }  
+
+
+
+
+/* Footer styles */
+.footer {
+    background-color: #344e41;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
