@@ -1,3 +1,7 @@
+/*-----------------------------*\
+Lightbox Full display
+\*-----------------------------*/
+
 body.lb-disable-scrolling {
   overflow: hidden;
 }

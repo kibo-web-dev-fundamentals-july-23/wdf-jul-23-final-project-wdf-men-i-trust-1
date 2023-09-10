@@ -1,3 +1,7 @@
+/*-----------------------------*\
+Lightbox Image Gallery Full display extension action
+\*-----------------------------*/
+
 /*!
  * jQuery JavaScript Library v3.6.3
  * https://jquery.com/

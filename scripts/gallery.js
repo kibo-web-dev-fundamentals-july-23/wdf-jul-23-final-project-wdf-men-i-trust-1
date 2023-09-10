@@ -1,4 +1,4 @@
-// var searchField = document.getElementById('search').value;
+// Search Action
 var submitButton = document.getElementById('sub-btn');
 
 function Search() {

@@ -1,3 +1,5 @@
+// Like Action For Exhibition page
+
 var likeBtn1 = document.getElementById('lke-1');
 var likeBtn2 = document.getElementById('lke-2');
 var likeBtn3 = document.getElementById('lke-3');
