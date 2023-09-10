@@ -1,0 +1,37 @@
+.header-and-search {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.header-and-search h2 {
+    font-size: 70px;
+    margin: 30px;
+}
+.header-and-search p {
+    font-size: 1.5rem;
+    margin: 30px;
+}
+.header-and-search .input {
+    background: var(--dark-ash-text);
+    max-width: 40vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+.header-and-search .input input {
+    background: transparent;
+    height: 50px;
+    padding-left: 10px;
+    outline: none;
+    font-family: var(--font-general);
+}
+.header-and-search .input button {
+    background: var(--background-dark-container);
+    color: var(--bright);
+    outline: none;
+    transition: 0.2s;
+}
+.header-and-search .input button:hover {
+    background: black;
+    cursor: pointer;
+}
+
