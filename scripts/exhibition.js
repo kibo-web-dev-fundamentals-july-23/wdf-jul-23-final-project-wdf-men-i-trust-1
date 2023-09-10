@@ -53,4 +53,11 @@ likeBtn3.addEventListener('mouseup', () => {
 })
 
 
-// likeBtn3.addEventListener('click', like(likeBtn3));
+//Hamburger Toggle Action
+let navBar2 = document.getElementById("navBar2");
+
+
+function togglebtn(){
+    navBar2.classList.toggle("hidemenu")
+}
+

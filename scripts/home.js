@@ -1,3 +1,5 @@
+
+// Exhibition Like Actions
 var likeButton1 = document.getElementById('like-1');
 var likeButton2 = document.getElementById('like-2');
 var likeButton3 = document.getElementById('like-3');
@@ -53,4 +55,12 @@ likeButton3.addEventListener('mouseup', () => {
 })
 
 
-// likeButton3.addEventListener('click', like(likeButton3));
+
+
+//Hamburger Toggle Action
+let navBar = document.getElementById("navBar");
+
+
+function togglebtn(){
+    navBar.classList.toggle("hidemenu")
+}

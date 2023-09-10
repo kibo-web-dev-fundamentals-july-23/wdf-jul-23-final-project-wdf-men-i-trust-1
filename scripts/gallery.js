@@ -20,3 +20,10 @@ function Search() {
 
 submitButton.addEventListener('click', Search)
 
+//Hamburger Toggle Action
+let navBar1 = document.getElementById("navBar1");
+
+
+function togglebtn(){
+    navBar1.classList.toggle("hidemenu")
+}

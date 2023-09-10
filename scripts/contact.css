@@ -55,3 +55,41 @@
 .contact-con .form button:hover {
     background: var(--background-dark);
 }
+
+/*-----------------------------*\
+Responsive Design
+\*-----------------------------*/
+
+/* Mobile Phones View */
+@media only screen and (max-width:600px) {
+    .header {
+        padding-top: 100px;
+    }
+    .header h2 {
+        font-size: 3rem;
+    }
+    .header p {
+        font-size: 1.2rem;
+    }
+
+    /* Contact Section */
+    .contact-con {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 100px;
+    }
+    .contact-con img {
+        width: 100%;
+    }
+
+    .contact-con .form > p {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+    .contact-con .form .name-sec input {
+        width: 100%;
+    }
+    
+    
+}
