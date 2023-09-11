@@ -92,6 +92,9 @@ Responsive Design
         font-size: 1.2rem;
         margin: 0;
     }
+    .contact-con .form .name-sec {
+        flex-direction: column;
+    }
     .contact-con .form .name-sec input {
         width: 100%;
     }
