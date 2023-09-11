@@ -34,8 +34,13 @@
     margin: 20px 0;
     font-family: var(--font-general);
 }
+.contact-con .form .name-sec {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 .contact-con .form .name-sec input {
-    width: 49%;
+    width: 50%;
 }
 .contact-con .form .name-sec input:first-child {
     margin-right: 9px;
